@@ -20,9 +20,9 @@ possible analysis error: startOffset must be non-negative, and endOffset must be
 
 修改之后的排序方法为：
 
-|           |普通 | 普通话 | 通话 |
+|           |普通话  |普通 | 通话 |
 |-----------|----|------|-------|
 |startOffset|0   |0     |1      |
-|endOffset  |1   |2     |2      |
+|endOffset  |2   |1     |2      |
 
 dataImport恢复正常。
